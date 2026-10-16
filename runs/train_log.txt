@@ -1,0 +1,16 @@
+config: epochs=2 batch=16 lr=2e-05 train_windows=10067 val_windows=2423 device=cpu
+epoch1 step100 loss=1.2742
+epoch1 step200 loss=0.8984
+epoch1 step300 loss=0.7446
+epoch1 step400 loss=0.6532
+epoch1 step500 loss=0.5912
+epoch1 step600 loss=0.5461
+== epoch 1 done: avg_loss=0.5349 val_char_acc=0.9489 epoch_time=2171.5s
+epoch2 step700 loss=0.2753
+epoch2 step800 loss=0.2674
+epoch2 step900 loss=0.2630
+epoch2 step1000 loss=0.2588
+epoch2 step1100 loss=0.2568
+epoch2 step1200 loss=0.2548
+== epoch 2 done: avg_loss=0.2536 val_char_acc=0.9523 epoch_time=7358.6s
+total_train_time=9530.1s

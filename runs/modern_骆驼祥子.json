@@ -1,0 +1,8 @@
+{
+  "n_chars": 5188,
+  "n_punct_events": 656,
+  "micro_f1": 0.3216,
+  "boundary_f1": 0.3042,
+  "loose_micro_f1": 0.6445,
+  "source": "excerpt_骆驼祥子.txt"
+}

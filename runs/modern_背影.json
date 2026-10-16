@@ -1,0 +1,8 @@
+{
+  "n_chars": 4764,
+  "n_punct_events": 547,
+  "micro_f1": 0.3388,
+  "boundary_f1": 0.3595,
+  "loose_micro_f1": 0.6839,
+  "source": "excerpt_背影.txt"
+}

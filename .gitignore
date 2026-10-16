@@ -1,0 +1,16 @@
+# 大数据文件不进 git
+data/processed/*.jsonl
+data/processed/*.zip
+# 模型权重
+models/
+*.safetensors
+*.bin
+# Python
+__pycache__/
+*.pyc
+.venv*/
+# 系统
+.DS_Store
+Thumbs.db
+gpu_upload.zip
+*.zip

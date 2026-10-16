@@ -1,0 +1,21 @@
+{
+  "train_para": 73121,
+  "train_chars": 7112852,
+  "bad_line": 20005,
+  "drop_short": 12280,
+  "val_para": 19325,
+  "val_chars": 1843307,
+  "test_para": 19035,
+  "test_chars": 1860418,
+  "label_dist": {
+    "NONE": 9971166,
+    "COMMA": 490417,
+    "PERIOD": 160613,
+    "QUESTION": 3704,
+    "EXCLAM": 1956,
+    "SEMICOLON": 15640,
+    "COLON": 19590,
+    "ENUM": 132102,
+    "BOOK": 21389
+  }
+}

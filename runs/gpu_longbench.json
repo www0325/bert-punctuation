@@ -1,0 +1,69 @@
+{
+  "naive_overlap": {
+    "fwd_passes": 133,
+    "time_s": 4.75,
+    "throughput_chars_per_s": 8750.0,
+    "peak_vram_GB": 0.43,
+    "micro_f1": 0.6912,
+    "boundary_f1": 0.5794
+  },
+  "no_overlap": {
+    "fwd_passes": 93,
+    "time_s": 2.35,
+    "throughput_chars_per_s": 17675.0,
+    "peak_vram_GB": 0.44,
+    "micro_f1": 0.7017,
+    "boundary_f1": 0.5872
+  },
+  "seam_minimal": {
+    "fwd_passes": 166,
+    "time_s": 2.85,
+    "throughput_chars_per_s": 14578.0,
+    "peak_vram_GB": 0.44,
+    "micro_f1": 0.7061,
+    "boundary_f1": 0.5904
+  },
+  "fusion_weighted": {
+    "fwd_passes": 133,
+    "time_s": 3.71,
+    "throughput_chars_per_s": 11190.0,
+    "peak_vram_GB": 0.43,
+    "micro_f1": 0.6928,
+    "boundary_f1": 0.5857
+  },
+  "assignment_baseline": {
+    "fwd_passes": 161,
+    "time_s": 3.61,
+    "throughput_chars_per_s": 11518.0,
+    "peak_vram_GB": 0.43,
+    "micro_f1": 0.7161,
+    "boundary_f1": 0.6098
+  },
+  "batch_scaling": {
+    "1": {
+      "time_ms": 28.7,
+      "tok_per_s": 17754.0,
+      "vram_GB": 0.74
+    },
+    "4": {
+      "time_ms": 106.2,
+      "tok_per_s": 19213.0,
+      "vram_GB": 1.64
+    },
+    "8": {
+      "time_ms": 194.8,
+      "tok_per_s": 20944.0,
+      "vram_GB": 2.87
+    },
+    "16": {
+      "time_ms": 407.0,
+      "tok_per_s": 20049.0,
+      "vram_GB": 5.33
+    },
+    "32": {
+      "time_ms": 838.6,
+      "tok_per_s": 19462.0,
+      "vram_GB": 10.24
+    }
+  }
+}

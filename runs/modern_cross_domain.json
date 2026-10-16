@@ -1,0 +1,8 @@
+{
+  "n_chars": 97,
+  "n_punct_events": 7,
+  "micro_f1": 0,
+  "boundary_f1": 0.0,
+  "loose_micro_f1": 0.5217,
+  "source": "builtin_sample"
+}

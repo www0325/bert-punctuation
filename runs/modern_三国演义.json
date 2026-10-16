@@ -1,0 +1,8 @@
+{
+  "n_chars": 4895,
+  "n_punct_events": 941,
+  "micro_f1": 0.4829,
+  "boundary_f1": 0.4182,
+  "loose_micro_f1": 0.7519,
+  "source": "excerpt_三国演义.txt"
+}

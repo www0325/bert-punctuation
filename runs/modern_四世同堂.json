@@ -1,0 +1,8 @@
+{
+  "n_chars": 5127,
+  "n_punct_events": 618,
+  "micro_f1": 0.3275,
+  "boundary_f1": 0.3226,
+  "loose_micro_f1": 0.6638,
+  "source": "excerpt_四世同堂.txt"
+}

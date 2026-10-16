@@ -1,0 +1,8 @@
+{
+  "n_chars": 5021,
+  "n_punct_events": 739,
+  "micro_f1": 0.407,
+  "boundary_f1": 0.3808,
+  "loose_micro_f1": 0.7095,
+  "source": "excerpt_红楼梦.txt"
+}
